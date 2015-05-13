@@ -1,2 +1,6 @@
 ---
 # defaults file for ansible-kibana
+kibana_user: elasticsearch
+kibana_group: elasticsearch
+kibana_version: "4.0.2-linux-x64"
+kibana_path: "/opt/kibana"
